@@ -52,4 +52,4 @@ if d == 0:
 #젤 뒤에 자료(pop())를 꺼내서 맨 앞으로 넣기. 앞에다 넣는 insert함수 사용
 else:
     for _ in range(t):
-        cube[r-1].insert(0, cube[r-1].pop())
+        cube[r-1].insert(0, cube[r-1].pop()
