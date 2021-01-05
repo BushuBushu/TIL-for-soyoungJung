@@ -53,5 +53,3 @@ if d == 0:
 else:
     for _ in range(t):
         cube[r-1].insert(0, cube[r-1].pop())
-
-#모래 시곟 
