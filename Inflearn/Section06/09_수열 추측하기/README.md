@@ -63,3 +63,7 @@
 |              |                |
 
 ## 고생한 점
+
+![image](https://user-images.githubusercontent.com/68037174/108976066-7eef1080-76ca-11eb-830e-0b9def113b0f.png)
+
+- n이 4이기 때문에 (a+b)**4의 이항 계수를 구하는 것.
