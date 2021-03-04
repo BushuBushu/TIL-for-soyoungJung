@@ -32,3 +32,19 @@ if __name__ == '__main__':
     maxx = -2147000000
     DFS(1, 0)
     print(maxx)
+
+
+#강의 풀이 - DFS함수만 다름.
+#날짜가 넘어갔을 때 더 이상 가지를 뻗지 않는 것의 구현의 위치 차이.
+def DFS(L, sum):
+    gobal maxx
+    if L == n + 1:
+        if sum > res:
+            res = sum
+    else:
+        #L번째 상담을 한다고 했을 때, 앞으로 상담할 걸리는 날짜가 n + 1을 넘어가면 안됨. 그래야 뻗어나갈 수 있음.
+        if L + time <= n + 1:
+            #L날짜에 상담을 하는 것.
+            DFS(L + time[L], sum + pay[L])
+        #L날짜에 상담하지 않는 것. 그러면 그 다음 날짜에 상담을 한다.
+        DFS(L + 1, sum)
