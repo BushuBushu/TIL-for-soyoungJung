@@ -14,6 +14,16 @@
 ## 배운 개념 및 깨달은 점
 - DFS라고 반드시 if/else문이 들어가지 x.
 
+- `continue`
+    특정 조건일 때 실행하지 않는 것
+    ```
+    while num < 10:
+        num += 1
+        if num == 5:
+                continue
+        print(num)
+    ```
+    위 코드에서 num이 5라면 print되지 않고 넘어간다.
 
 ## 정리
 
